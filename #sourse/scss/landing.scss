@@ -351,10 +351,7 @@ h3 {
     width: 100%;
 }
 
-.plyr--video .plyr__control.plyr__tab-focus,
-.plyr--video .plyr__control:hover,
-.plyr--video .plyr__control[aria-expanded=true],
-.plyr__control--overlaid {
+.plyr--full-ui.plyr--video .plyr__control--overlaid{
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(20px);
     width: 100% !important;
@@ -902,6 +899,10 @@ h3 {
     box-shadow: none !important;
 }
 
+.exprecagency.exprecagency__sp {
+    padding-top: 100px;
+}
+
 
 
 
@@ -1224,6 +1225,12 @@ h3 {
     }
 }
 
+@media(max-width:767.8px) {
+    .exprecagency.exprecagency__sp {
+        padding-top: 60px;
+    }
+}
+
 @media(max-width:575.8px) {
     .welcomesect .welcomesect__text h1 {
         font-size: 23px;
@@ -1365,6 +1372,10 @@ h3 {
 
     .testimonialssect__sectdescr h3 {
         font-size: 28px;
+    }
+
+    .exprecagency.exprecagency__sp {
+        padding-top: 30px;
     }
 
 }
