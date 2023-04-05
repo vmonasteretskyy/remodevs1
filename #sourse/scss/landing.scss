@@ -903,7 +903,23 @@ h3 {
     padding-top: 100px;
 }
 
+.plyr audio, .plyr video,
+.plyr__poster {
+    border-radius: 20px;
+}
 
+.plyr__video-wrapper {
+    border-radius: 20px;
+}
+
+.plyr__video-wrapper,
+.plyr--video {
+    background: transparent;
+}
+
+.plyr--video .plyr__controls {
+    border-radius: 0 0 20px 20px;
+}
 
 
 @media(max-width:1399.8px) {
